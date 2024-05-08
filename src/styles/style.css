@@ -13,9 +13,7 @@ body {
 	color:#e5ff00;
 }
 
-h1 {
-	color: #e5ff00;
-}
+
 
 header {
 	width: 100%;
@@ -24,6 +22,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 1rem;
+	color: #2d2d56;
+	background-color: #e5ff00;
+
 }
 
 form {
