@@ -1,3 +1,39 @@
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: #2d2d56;
+	color:#e5ff00;
+}
+
 h1 {
-	color: blue;
+	color: #e5ff00;
+}
+
+header {
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+form {
+	width: 15rem;
+	gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	margin: 10rem auto;
+}
+
+.secret-section {
+	display: none;
 }
